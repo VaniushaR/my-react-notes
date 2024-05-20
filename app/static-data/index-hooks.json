@@ -1,0 +1,54 @@
+{
+	"State Management": {
+		"hooks": [
+			{ "type": "useState", "path": "hooks/use-state" },
+			{ "type": "useReducer", "path": "hooks/use-reducer" },
+			{
+				"type": "useSyncExternalStore",
+				"path": "hooks/use-sync-external-store"
+			}
+		],
+		"description": "State Management refers to hooks that actually help us to keep a track pof the state of the data rendered"
+	},
+
+	"Context": {
+		"hooks": [{ "type": "useContext", "path": "hooks/use-context" }],
+		"description": "Related to the contextual data on the app"
+	},
+	"Reference": {
+		"hooks": [
+			{ "type": "useRef", "path": "hooks/use-ref" },
+			{ "type": "useImperativeHandle", "path": "hooks/use-imperative-handle" }
+		],
+		"description": "Referencial hooks"
+	},
+	"Effect": {
+		"hooks": [
+			{ "type": "useEffect", "path": "hooks/use-effect" },
+			{ "type": "useLayoutEffect", "path": "hooks/use-layout-effect" },
+			{ "type": "useInsertionEffect", "path": "hooks/use-insertion-effect" }
+		],
+		"description": "Effect related "
+	},
+	"Performance": {
+		"hooks": [
+			{ "type": "useMemo", "path": "hooks/use-memo" },
+			{ "type": "useCallback", "path": "hooks/use-callback" }
+		],
+		"description": "related to Performance"
+	},
+	"Transition": {
+		"hooks": [
+			{ "type": "useTransition", "path": "hooks/use-transition" },
+			{ "type": "useDeferredValue", "path": "hooks/use-deferred-value" }
+		],
+		"description": "related to Transition"
+	},
+	"Miscelaneous": {
+		"hooks": [
+			{ "type": "useDebugValue", "path": "hooks/use-debug-value" },
+			{ "type": "useId", "path": "hooks/use-id" }
+		],
+		"description": "Misc hooks"
+	}
+}
