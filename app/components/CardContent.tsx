@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface CardContentProps {
 	basicSyntax?: string;
 	returnValue?: [];
@@ -44,13 +46,13 @@ const CardContent = ({
 			<span className="mb-4">{children}</span>
 
 			{pictureSrc && pictureAlt ? (
-				<img
+				<Image
 					src={pictureSrc}
 					className="mb-4"
 					alt={pictureAlt}
-					height="500px"
-					width="500px"
-				></img>
+					height={500}
+					width={500}
+				/>
 			) : null}
 			<h4>
 				<i className="bi bi-gem me-3"></i>Key Points:{" "}
